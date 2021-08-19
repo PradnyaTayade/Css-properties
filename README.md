@@ -1,5 +1,5 @@
 # Cascading Style Sheets
- This is made with HTML & CSS
+ This project is made with HTML & CSS
 # Css properties used:
 Color:Sets the color of a text
 
