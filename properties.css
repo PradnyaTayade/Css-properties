@@ -1,0 +1,211 @@
+.heading h1{
+	text-align: left;
+	background-color: darkblue;
+	color: whitesmoke;
+}
+.heading h2{
+	text-align: center;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcYpUn6X92TVmgWv2U-pTMQp-Xkv6zhRjneg&usqp=CAU');
+	color: whitesmoke;
+}
+.heading h3{
+	text-align: right;
+	background-color: darkblue;
+	color: whitesmoke;
+}
+.heading{
+	background-color: #6EDECB;
+}
+.stars{
+	background-color: lightslategray;
+}
+a{
+	border-style: solid;
+	width:20px;
+}
+a:hover {
+  border-style: solid;
+  color: hotpink;
+}
+
+#one{
+	border-style: dotted;
+	border-color: rgba(125, 145, 220, 0.5);
+	font: 20px Arial, sans-serif;
+}
+#two{
+	border-style: solid;
+	border-color: #ff33ff;
+}
+#three{
+	border-style: dashed;
+	border-color: rgba(255, 0, 0, 1.0);
+}
+#four{
+	border: double #1a1aff thick;
+}
+#five{
+	border-left: groove #006666  thin;
+}
+#six{
+	border: ridge #7300e6  10px;
+	border-radius: 1rem;
+}
+#seven{
+	border-right: inset #00ffff 5px;
+}
+#eight{
+	border: outset  #008000 15px;
+	border-radius: 0.5rem;
+}
+#nine{
+	border-style: dotted solid double ; 
+	border-color: #ffff33;
+}
+#ten{
+	border-style: dashed solid double ;
+	border-color: #e64d00;
+}
+#eleven{
+	border-top-style:  solid ; 
+	border-color: palevioletred;
+}
+#twelve{
+	border-bottom-style: dotted  ; 
+	border-color: rebeccapurple;
+}
+#thirteen{
+	border-style: solid;
+	border-color: #00b33c;
+	margin-top: 40px;
+}
+#fourteen{
+	border-style: solid;
+	border-color: #a3297a;
+	margin-bottom: 30px;
+}
+#fifteen{
+	border-style: solid;
+	border-color:#595959;
+	margin-right: 25px;
+}
+#sixteen{
+	border-style: solid;
+	border-color:#800040;
+	margin-left: 25px;
+}
+#seventeen{
+	border-style: solid;
+	border-color:#0040ff;
+	margin : 50px ;
+	max-width: 400px;
+	height: 100px;
+	background-color: darkblue;
+	color: whitesmoke;
+}
+.padall #eighteen{
+	padding-top: 15px;
+	border-style: solid;
+	border-color: #ff33ff;
+}
+.padall #nineteen{
+	padding-right: 30px ;
+	text-align: right;
+	border-style: solid;
+	border-color: #ff33ff;
+
+}
+.padall #twenty{
+	padding-bottom: 15px;
+	border-style: solid;
+	border-color: #ff33ff;
+}
+.padall #t-one{
+	padding-left: 20px ;
+	border-style: solid;
+	border-color: #ff33ff;
+}
+.padall #t-two{
+	padding: 50px ;
+	border-style: solid;
+	border-color: #ff33ff;
+	text-decoration: underline;
+
+}
+.padall #t-three{
+	padding: 50px;
+	border-style: solid;
+	margin : 50px ;
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	text-decoration: overline;
+	background-color: blanchedalmond;
+}
+.padall #t-four{
+  margin: 30px;
+  border: 1px solid black;
+  outline: 10px solid purple;
+  text-decoration: line-through;
+  outline-offset: 15px;
+}
+.padall #t-five{
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px red;
+	border-style: solid;
+	color: black;
+}
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+#t-six{
+	color: rebeccapurple;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px
+}
+
+tr:nth-child(even) {
+	background-color: hotpink;
+}
+#t-seven img{
+	float: right;
+
+}
+#t-eight img{
+	float: left;
+	animation-name: example;
+	animation-duration: 4s;
+}
+#t-seven{
+	text-align: right;
+}
+#t-eight{
+	text-align: ;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
