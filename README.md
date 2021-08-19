@@ -2,8 +2,11 @@
  This is made with HTML & CSS
 # Css properties used:
 Color:Sets the color of a text
+
 Text align:Aligns the text in an element
+
 Border:Sets all the border properties.
+
 Border Styles:Helps apply various borders
 
 # SCREENSHOTS
